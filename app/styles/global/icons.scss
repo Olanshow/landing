@@ -1,0 +1,17 @@
+.icon {
+	margin: 0;
+	margin-bottom: 23px;
+	display: inline-block;
+}
+
+.icon-like {
+	@include sprite($like);
+}
+
+.icon-book {
+	@include sprite($book);
+}
+
+.icon-message {
+	@include sprite($message);
+}

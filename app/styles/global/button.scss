@@ -19,6 +19,7 @@
 
 	&--yellow {
 		background: #f8cd53;
+		transition: 0.3s;
 
 		&:hover {
 			background: lighten(#f8cd53, 7%);
