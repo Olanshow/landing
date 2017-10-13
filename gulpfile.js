@@ -66,7 +66,7 @@ gulp.task('copy:images', function() {
 		.pipe(gulp.dest('build/images'));
 });
 
-/*---------- Copy ----------*/
+/*---------- Copy all ----------*/
 gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 
 /*---------- Watchers ----------*/

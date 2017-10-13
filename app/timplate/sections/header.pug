@@ -1,0 +1,19 @@
+header.header
+	.header__top
+		.container
+			.contacts
+				a.contact(href="tel:+375298038895")
+					i.fa.fa-mobile.contact__icon(aria-hidden="true")
+					span.contact__text 6337 3128
+
+				a.contact(href="mailto:info@business.co")
+					i.fa.fa-envelope.contact__icon.contact__icon--email(aria-hidden="true")
+					span.contact__text info@business.co
+
+				a.contact(href="https://www.facebook.com/")
+					i.fa.fa-facebook-square.contact__icon.contact__icon--facebook(aria-hidden="true")
+	.header__bottom
+		.container
+			.logo: img.logo__picture(src="images/logo.png" alt="picture")
+			include nav
+			a.button.header__button.button--red(href="#") Free Consultation

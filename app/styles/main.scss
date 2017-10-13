@@ -1,8 +1,14 @@
-body {
-	margin: 0;
-	padding: 0;
-}
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/normalize.scss/normalize";
 
-h1 {
-	color: #ccc
-}
+
+@import "global/fonts";
+@import "global/vars";
+@import "global/base";
+@import "global/common";
+@import "global/sprite";
+@import "global/button";
+
+
+@import "sections/header";
+@import "sections/nav";
