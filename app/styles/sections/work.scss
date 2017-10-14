@@ -1,0 +1,52 @@
+.work {
+	padding: 110px 0;
+	background-color: #de2b24;
+	color: #fff;
+
+	&__list {
+		padding: 0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	&__item {
+		width: 256px;
+		height: 256px;
+		font-weight: bold;
+		color: #fff;
+		background: #f35e59;
+
+		&--name {
+			position: relative;
+			padding: 130px 40px 75px 40px;
+			text-align: center;
+
+			&:before {
+				content: '';
+
+				@include sprite($work-item);
+				@include centerer-x();
+				top: 74px;
+			}
+		}
+	}
+
+	&__name {
+		font-size: 1.625rem;
+	}
+
+	&__picture {
+		width: 100%;
+		height: 100%;
+	}
+	
+	&__description {
+		font-size: 1rem;
+	}
+
+	.title--with-bottom-line:after {
+	background: #fff;
+	}
+}
+
